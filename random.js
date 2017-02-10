@@ -75,7 +75,19 @@ function createSecondScene() {
 // Remember, for the shapes to show up on the canvas, you'll need to CALL the function.
 function createThirdScene() {
     makeRect(0, 0, 200, 100, "#032785")
-    makeImage("https://c1.staticflickr.com/8/7029/6802888913_17b62d099c_b.jpg", 0, 0, 200, 100, 1)
+    //Poptropica
+    makeEllipse(100, 50, 15, 12, "tan")
+    makeCircle(92, 40, 5, "white")
+    makeCircle(105, 40, 7, "white")
+    makeCircle(91, 40, 1, "black")
+    makeCircle(104, 40, 1, "black")
+    makePolyline("86 44, 86 37, 97 37, 97 44, 86 44", "black", 1)
+    makeCircle(105, 55, 2)
+    makeCircle(89, 47, .6, "red")
+    makeCircle(95, 52, .6, "red")
+    makeCircle(110, 50, .6, "red")
+    makeCircle(102.5, 48, .6, "red")
+    makePolyline("100 44, 100 37, 111 37, 111 44, 100 44", "black", 1)
 }
 
 
